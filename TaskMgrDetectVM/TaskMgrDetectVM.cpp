@@ -30,8 +30,8 @@ int main()
 
         std::string vm;
         vm += std::string((const char*)&_rbx, 4);
-        vm += std::string((const char*)&_rdx, 4);
         vm += std::string((const char*)&_rcx, 4);
+        vm += std::string((const char*)&_rdx, 4);
 
         std::cout << vm << std::endl;
     }
